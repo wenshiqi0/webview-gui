@@ -1,0 +1,3 @@
+[package]
+name = "webview-gui-sys"
+version = "0.1.0"
