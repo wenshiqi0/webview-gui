@@ -1,8 +1,12 @@
 extern crate webview_gui;
 
-use webview_gui::Webview;
+use webview_gui::WebView;
 
 fn main() {
-  let mut webview = Webview::new();
-  webview.draw();
+    match WebView::new() {
+        Ok(mut wv) => {
+            wv.draw();
+        },
+        Err(_) => (),
+    }
 }

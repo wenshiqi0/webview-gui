@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "objc-runtime.h": "c"
+    }
+}
